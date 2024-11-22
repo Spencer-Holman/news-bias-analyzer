@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "News Bias Analyzer",
     "version": "1.0",
-    "description": "Analyze news pages for bias and factual inaccuracies.",
+    "description": "Analyze webpages for bias and factual inaccuracies.",
     "permissions": ["scripting", "activeTab", "storage"],
     "background": {
       "service_worker": "background.js"

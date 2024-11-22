@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    width: 400px;
+    height: 600px;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #22223b; /* Dark background */
+    color: #f2e9e4; /* Light text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  #container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Heading Styles */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #c9ada7; /* Accent color */
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 10px 20px;
+    background-color: #4a4e69; /* Button background */
+    color: #f2e9e4; /* Button text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #9a8c98; /* Lighter accent on hover */
+  }
+  
+  /* Results Section */
+  #results {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a4e69; /* Slightly lighter section background */
+    border-radius: 8px;
+    margin-top: 20px;
+    overflow-y: auto;
+    color: #f2e9e4;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  /* Textarea for Detailed Summary */
+  #detailed-summary {
+    margin-top: 10px;
+  }
+  
+  textarea#detailed-content {
+    width: 100%;
+    height: 150px; /* Increased size for better readability */
+    background-color: #22223b; /* Match the main background */
+    color: #f2e9e4; /* Light text */
+    border: 1px solid #9a8c98; /* Accent border */
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+    overflow-y: auto;
+  }
+  
+  /* See More Button */
+  #see-more {
+    background-color: #9a8c98; /* Accent color for See More button */
+    color: #22223b;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  #see-more:hover {
+    background-color: #c9ada7; /* Slightly lighter hover effect */
+  }
+  

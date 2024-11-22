@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Bias Analyzer</title>
+  <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <h1>News Bias Analyzer</h1>
-  <button id="analyze">Analyze Page</button>
-  <div id="results"></div>
+  <div id="container">
+    <h1>News Bias Analyzer</h1>
+    <button id="analyze">Analyze Page</button>
+
+    <div id="results">
+      <p><strong>Nationalist Bias:</strong> <span id="nationalist-bias"></span></p>
+      <p><strong>Political Bias:</strong> <span id="political-bias"></span></p>
+      <button id="see-more" style="display: none;">See More</button>
+      <div id="detailed-summary" style="display: none;">
+        <h3>Detailed Summary:</h3>
+        <textarea id="detailed-content" readonly></textarea>
+      </div>
+    </div>
+  </div>
+
   <script src="popup.js"></script>
 </body>
 </html>
