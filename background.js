@@ -16,7 +16,11 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   });
   
   async function analyzeTextWithOpenAI(text) {
+<<<<<<< HEAD
     const apiKey = ""; // Your OpenAI API Key
+=======
+    const apiKey = process.env.OPENAI_API_KEY; // Your OpenAI API Key
+>>>>>>> parent of 49c2ce9 (added see more functionality)
     const apiUrl = "https://api.openai.com/v1/chat/completions";
   
     try {
